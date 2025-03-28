@@ -22,3 +22,6 @@ def get_random_response():
 
        return random.choice(respons)
 
+def display_respons(response) :
+    print("\n the magic 8 ball says :",response, "\n")      
+
